@@ -1,0 +1,72 @@
+.profile{
+    background: white;  
+    width: 200px;
+    padding-left: 25px;
+    margin-left: 14px;
+    border-radius: 12px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+}
+.profile button{
+    border: none;
+    background: inherit;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.7;
+    /* transition: all 0.1s ease-in-out; */
+}
+
+.profile img{
+    opacity: 0.7;
+}
+
+.logout{
+    /* margin-top: 12px; */
+    width: 200px;
+    padding-left: 25px;
+    margin-left: 14px;
+    border-radius: 12px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.logout button{
+    border: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.7;
+    background: #f2f2f2;
+    margin-left: 0;
+    padding-left: 7px;
+}
+
+.logout img{
+    opacity: 0.7;
+}
+
+.profile:hover{
+    background: #bebebe;
+    cursor: pointer;
+}
+
+.profile:hover button {
+    background: inherit; /* Keep it transparent so it matches the parent */
+    color: black; /* Optional: change text color on hover */
+}
+
+.logout:hover{
+    background: #bebebe;
+    cursor: pointer;
+}
+
+.logout:hover button {
+    background: inherit; /* Keep it transparent so it matches the parent */
+    color: black; /* Optional: change text color on hover */
+}

@@ -1,0 +1,90 @@
+
+.calendar-wrapper {
+  background-color: #f7f9fc;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+  /* margin: 0 auto; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-calendar {
+  border: none;
+}
+
+.react-calendar__tile {
+  position: relative;
+}
+
+.react-calendar__tile--now {
+  background-color: #4f46e5 !important;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.react-calendar__tile--now:hover {
+  background-color: #4338ca !important;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: #f97316;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot.borrowed {
+  background-color: #f59e0b; /* Yellow for borrowed */
+}
+
+.dot.due {
+  background-color: #ef4444; /* Red for due */
+}
+
+.dot.returned {
+  background-color: #10b981; /* Green for returned */
+}
+
+.circle{
+  display: inline-block;
+  height: 12px;    /* increase size for legend */
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  background: #000; /* fallback */
+  margin-bottom: 4px;
+}
+
+.circle.borrowed {
+  background-color: #f59e0b; 
+}
+
+.circle.due {
+  background-color: #ef4444; 
+}
+
+.circle.returned {
+  background-color: #10b981;
+}
+
+.color-name{
+  display: inline;
+  margin-right: 12px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #444343;
+}
+
+.legitem{
+  display: inline;
+}

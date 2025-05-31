@@ -1,0 +1,63 @@
+.firstpart,.secondpart,.thirdpart{
+    background: #e2dde7 ;
+    /* background: #f6f7f7; */
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgb(153, 150, 150);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    color: #4e4e4e;
+}
+.endspace{
+    height: 44px;
+}
+.secondpart,.thirdpart{
+    margin-top: 25px;
+}
+.alarm{
+    height: 44px;
+    margin-right: 16px;
+}
+.overduelabel{
+    font-size: 30px;
+    margin: 10px;
+    color: #3a3a3a;
+    font-weight: 550;
+    display: flex;
+    margin-bottom: 40px;
+}
+.duebook{
+    color: #212121;
+}
+.duebook li{
+    list-style: none;
+}
+.duebookcontainer{
+    display: flex;
+    background: rgb(234, 233, 234);
+    padding: 12px;
+    border-radius: 20px;
+    padding-top: 24px;
+    margin-bottom: 26px;
+    box-shadow: 0 4px 8px rgba(98, 98, 98, 0.429);
+}
+.bookicon{
+    width: 190px;
+}
+.btitle{
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 27px;
+}
+.bdet{
+    line-height: 6px;
+}
+.paid-yes{
+    color: rgb(110, 165, 27);
+    font-weight: 600;
+    font-size: 23px;
+}
+.paid-no{
+    color: rgb(165, 27, 27);
+    font-weight: 600;
+    font-size: 23px;
+}

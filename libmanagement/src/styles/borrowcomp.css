@@ -1,0 +1,61 @@
+
+.blayout p{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.blayout{
+    width: 750px;
+    /* background: rgb(246, 246, 246); */
+    background: white;
+    display: flex;
+    margin: 12px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5e5e5e;
+}
+
+.blayout img{
+    margin: 12px;
+    height: 190px;
+    margin-right: 22px;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.blayout .title{
+    font-weight: 500;
+    color: #494849;
+    font-size:24px;
+    margin-bottom: 6px;
+    
+}
+.blayout .author{
+    color: #494849;
+    margin: 0px 0px;
+}
+
+.blayout .red{
+    color: rgb(211, 42, 42);
+}
+
+.circle.borrowed {
+  background-color: #f59e0b; 
+}
+
+.circle.due {
+  background-color: #ef4444; 
+}
+
+.circle.returned {
+  background-color: #10b981;
+}
+.dotbox{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    margin-bottom: 0;
+}
+.status{
+    margin: 0;
+}

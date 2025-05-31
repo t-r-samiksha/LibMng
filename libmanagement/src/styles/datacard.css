@@ -1,0 +1,50 @@
+.datacard{
+    
+    display: flex;
+
+    align-items: center;
+}
+.dicon{
+    height: 34px;
+    margin-right: 12px;
+}
+.editicon{
+    height: 22px;
+    margin-left: 22px;
+}
+.editicon:hover{
+    cursor: pointer;
+}
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+.namelabel{
+    margin-right: 12px;
+    font-weight: 550;
+    font-size: 20px;
+    width: 180px;
+}
+.namelabel.extrawidth{
+    width: 250px;
+}
+.data{
+    background: #eeecf0 ;
+    padding: 12px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px #b2acb9;
+    font-size: 18px;
+}
+.data.no{
+    background:inherit;
+    box-shadow: none;
+}
+.inputbox{
+    all: unset;
+    box-shadow: 0px 1px 8px rgb(127, 56, 198);
+    padding: 12px;
+    border-radius: 20px;
+    width: 500px;
+    background: #ffffff;
+}

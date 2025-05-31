@@ -1,0 +1,105 @@
+.categorybook{
+    background: #d2e4e1;
+    height: 65px;
+    text-align: center;
+    width: 125px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: rgb(75, 73, 73);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgb(206, 204, 204);
+}
+.cbox{
+    display: flex;
+}
+.genreimg{
+    height: 35px;
+    margin-right: 12px;
+}
+.categorybook:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+.bookbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+    gap: 25px;
+    padding: 6px;
+    width: 700px;
+}
+
+ .a {
+  padding: 20px;
+}
+
+.wishtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.authorslist ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.author-card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+  color: #444;
+}
+
+.author-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  color: #4f46e5; /* Indigo-ish */
+}
+
+.author-card::after {
+  content: "View Books →";
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-top: 8px;
+  transition: color 0.2s ease;
+}
+
+.author-card:hover::after {
+  color: #4f46e5;
+  text-decoration: underline;
+}
+.authorandbyear {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: row;
+
+}
+
+.separator-line {
+  width: 2px;
+  height: 680px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  margin-top: 59px;
+  opacity: 0.6;
+}
+
+
+.bookoftheyear{
+    margin-top: 20px;
+}

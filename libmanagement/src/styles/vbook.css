@@ -1,0 +1,72 @@
+.vbooklayout {
+    height: 330px;
+    width: 160px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all 0.2s ease-in-out;
+    margin-right: 16px;
+}
+
+.vbooklayout:hover{
+    transform: scale(1.1);
+}
+
+.vbooklayout img {
+
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    height: 225px;
+}
+
+.vbook .bookimg:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.vbook .bookimg{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.save-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.89;    
+}
+
+.titleandauthor .vtitle{
+    font-weight: 500;
+    color: #494849;
+    font-size:20px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    margin-left: 12px;
+    overflow: hidden;      
+    text-overflow: ellipsis;
+}
+
+.titleandauthor .vauthor{
+    color: #494849;
+    margin: 0px 0px;
+    margin-left: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;        
+    text-overflow: ellipsis;
+}
+
+.vbook .save-icon {
+    position: absolute;
+    top: 5px;            
+    right: 5px;        
+    width: 40px;        
+    height: 40px;        
+    background-color: transparent; 
+    z-index: 2;          
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}

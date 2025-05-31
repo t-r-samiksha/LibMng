@@ -1,0 +1,90 @@
+.booklayout{
+    width:490px;
+    background: white;
+    display: flex;
+    margin: 12px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5e5e5e;
+    align-items: center;
+    padding: 16px;
+}
+
+.booklayout img {
+    height: 110px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+.booklayout .title{
+    font-weight: 500;
+    color: #494849;
+    font-size:24px;
+    margin-bottom: 6px;
+    
+}
+.booklayout .author{
+    color: #494849;
+    margin: 0px 0px;
+}
+
+.booklayout .deadline{
+    color: rgb(95, 93, 93);
+}
+
+.booklayout .red{
+    color: rgb(211, 42, 42);
+}
+
+/* .booklayout {
+    width: 100%;
+    max-width: 520px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    
+    padding: 16px;
+    margin: 12px auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    transition: transform 0.2s ease;
+}
+
+.booklayout:hover {
+    transform: translateY(-2px);
+}
+
+.booklayout img {
+    height: 110px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.titleandauthor {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.booklayout .title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #2e2e2e;
+}
+
+.booklayout .author {
+    font-size: 15px;
+    color: #6a6a6a;
+}
+
+.booklayout .deadline {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: 500;
+}
+
+.booklayout .red {
+    color: #e63946;
+} */

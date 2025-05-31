@@ -1,0 +1,37 @@
+.notifbox{
+    background: #f4f1f1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 19px;
+    box-shadow: 0 4px 8px rgba(186, 182, 182, 0.647);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 26px;
+    color: rgb(70, 67, 67);
+}
+
+.tandstandicon{
+    display: flex;
+}
+
+.ntitle{
+    font-weight: 549;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.subtitle{
+    margin-top: 11px;
+}
+
+.icon{
+    height: 62px;
+    margin-right: 22px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 18px;
+}
+
+.time{
+    margin: auto 12px;
+}

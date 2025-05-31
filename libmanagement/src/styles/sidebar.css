@@ -1,0 +1,81 @@
+/* Reset default spacing */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.sbmain h2 {
+  font-size: 24px;
+  font-weight: 700;
+  /* color: #50185f;  */
+  color: #50185f;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 20px;
+  text-align:left;
+  padding-left: 35px;
+  font-family:  Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.sbmain{
+    width: 250px;
+    height: 100vh;
+    /* background: #f9f0e8; */
+    background: #f2f2f2;
+}
+.sidebarbox {
+    
+    display: flex;
+    justify-content: center; /* horizontally center the ul */
+    /* flex-direction: column; */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+li {
+    margin: 12px 0;
+}
+
+.button {
+    width: 100%;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #636161;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    background-color:#bebebe;
+    color: rgb(46, 46, 46);
+}
+
+.button.active {
+    background-color: #50185f;
+    color: white;
+    /* color: black; */
+    font-weight: 650;
+    font-size: 21px;
+    
+}
+
+.account{
+  display: flex;
+  position: fixed;
+  bottom: 19px;
+  flex-direction: column;
+}
